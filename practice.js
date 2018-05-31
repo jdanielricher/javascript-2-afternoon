@@ -68,12 +68,12 @@ favoriteThings.book = "Harry Potter";
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
-var backpack ={
+var backPack ={
 
 }
 var item = 'firstPocket';
-backpack.item = "chapstick";
-backpack.color = "Black";
+backPack[item] = "chapstick";
+backPack[color] = "Black";
 
 
 
@@ -83,7 +83,7 @@ backpack.color = "Black";
   After you do the above, alert your entire backPack object.
 */
 
-backpack;
+backPack;
 
 
 
@@ -93,7 +93,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-console.log(backpack);
+console.log(backPack);
 
 
 
