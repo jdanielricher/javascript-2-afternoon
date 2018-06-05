@@ -73,7 +73,7 @@ var backPack ={
 }
 var item = 'firstPocket';
 backPack[item] = "chapstick";
-backPack[color] = "Black";
+backPack.color = "Black";
 
 
 
